@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../CSS/Style-tabelas.css">
+        <title>Tabelas com HTML</title>
+    </head>
+
+    <body>
+
+            <header>
+                <img src="html.png" class="html-image" alt="Símbolo do html">
+                <h1>Principais tags do HTML</h1>
+            </header>
+
+            <nav>
+                <a href="#O-que-e-html">O que é Html?</a>
+                <a href="#links">Tags de link</a>
+                <a href="#tabelas">Tags de tabelas</a>
+                <a href="#imagens">Tags de imagens</a>
+                <a href="#videos">Tags de vídeos</a>
+                <br>
+                <a href="#Iframes">Tags de Iframes</a>
+                <a href="#formularios">Tags de formulários</a>
+                <a href="#inputs">Tags de inputs</a>
+                <a href="#botoes">Tags de botões</a>
+                <a href="#Tire-suas-duvidas">Tire suas dúvidas</a>
+                <a href="#Nossas-redes">Nossas redes sociais</a>
+            </nav>
+
+            <main>
+                <article>
+                    
+                    <section class="section-m0">
+                        <h3 class="titulo-esquerda">O que é HTML?</h3>
+                        <iframe src="https://www.youtube.com/embed/RISPTY1Lh2A" id="O-que-e-html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+
+                    <section class="section-m1">
+                        <section id="links">
+                            <h3 class="titulo-m1">Tags de links</h3>
+                            <table class="tabela-m1">
+
+                                <tr>
+                                    <th>Função</th>
+                                    <th>Comentário</th>
+                                </tr>
+
+                                <tr>
+                                    <td>Linkar páginas</td>
+                                    <td>O “URL” é o link do site em que o usuário será direcionado. O texto entre as tags será o texto com o link a ser clicado.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Definir onde as páginas serão linkadas</td>
+                                    <td>1. Abre o link na mesma aba. É a configuração padrão, ou seja, se não usar nenhum atributo, o link vai abrir assim.<br>2. Abre o link em uma aba em branco.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Link para mandar um Email</td>
+                                    <td>Ao clicar no link, o usuário será redirecionado para o corpo de um e-mail endereçado para o e-mail inserido.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Link para uma ligação</td>
+                                    <td>Ao clicar no link, o usuário telefonará para o número inserido. É necessário colocar o código do país, e o número sem espaço.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Direcionar para uma parte da mesma página</td>
+                                    <td>Sendo que “nome” é qualquer nome desejado por você. A primeira tag vem com “#” e o nome, na segunda é o mesmo nome apenas. Coloque a segunda tag na parte que você quer direcionar o usuário, pode ser em um parágrafo, título, ou qualquer outro elemento. </td>
+                                </tr>
+
+                            </table>
+                        </section>
+
+                        <section id="inputs">
+                            <h3 class="titulo-m1">Tags de inputs</h3>
+                            <table class="tabela-m1">
+
+                                <tr>
+                                    <th>Função</th>
+                                    <th>Comentário</th>
+                                </tr>
+
+                                <tr>
+                                    <td>Criar caixas para inserção de <br>informações</td>
+                                    <td>Inputs podem ou não ficar dentro de formulários. Eles coletam dados.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Autocompletar informações</td>
+                                    <td>Se a caixa for coletar um e=mail, substitui “tipo de texto” por e-mail. Se aplica com telefones, nomes, endereços, cpf, entre outros dados que em algum momento você já inseriu no navegador e ficaram armazenados.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Focar em um input</td>
+                                    <td>Ao carregar a página, o cursor já vem no input. Só é possível colocar um por página. Se tiver mais de um, o navegador vai focar no que aparecer primeiro.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Desabilitar um input</td>
+                                    <td>Deixa o input bloqueado, sem poder receber informações. É usado quando em sites que você precisa preencher inputs na ordem para destravar o próximo.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Já criar um input com uma informação </td>
+                                    <td>Onde o texto é a informação pré-estabelecida.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Criar um input para apenas leitura</td>
+                                    <td>A informação não pode ser alterada, é possível apenas ler</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Criar um texto de fundo</td>
+                                    <td>O texto escrito entre aspas preenche o input até que o usuário insira uma informação.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Vincular um nome ao input</td>
+                                    <td>Digita o nome do input e depois coloca o input entre as tags. Fazendo dessa forma, o navegador vai associar o nome ao input, coisa que ele não faz se você digitar sem essa tag.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Vincular um input a um label</td>
+                                    <td>Dessa forma, você vincula uma label com um input sem que seja necessário que o input esteja entre as tags da label. Basta que o nome entre aspas seja o mesmo para os dois.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Input para senhas</td>
+                                    <td>Ao preencher o input, os dados não serão mostrados</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Input para números</td>
+                                    <td>Só aceita que sejam inseridos números no input.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Input para emails</td>
+                                    <td>Ele não aceita a informação se não tiver um formato de e-mail. Ele não verifica se o e-mail é válido.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>input para URL</td>
+                                    <td>Só aceita a inserção de um URL. Não verifica se ele é válido.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Inserir um checkbox</td>
+                                    <td>Insere um checkbox.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>inserir um círculo de preencher</td>
+                                    <td>Insere o circulo. Geralmente são usados em conjunto. É possível configurar para só poder selecionar um do conjunto. </td>
+                                </tr>
+
+                                <tr>
+                                    <td>Inserir arquivos</td>
+                                    <td>Ao clicar no botão, o usuário será direcionado aos seus documentos para anexar o que for desejado.<br><font color="red">Para anexar arquivos, a tag form tem que ter os atributos: method=”post” e enctype=”multipart/form-data”</td></font>
+                                </tr>
+
+                                <tr>
+                                    <td>Inserir arquivos de extensões<br> específicas</td>
+                                    <td>1. O input só aceitará a extensão de arquivo informada.<br>2. O input só aceitará o arquivo se for do tipo e da extensão informados. No exemplo, ele só aceita imagem em png. Ao usar o “*”(asterisco) o input aceitará todos os formatos.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Inserir múltiplos arquivos </td>
+                                    <td>Mais de um arquivo será anexado.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Inserir um input de cor</td>
+                                    <td>1. Inserir um input para selecionar e enviar uma cor.<br>2. Inserir um input para selecionar e enviar uma cor com uma cor inicial, podendo ser o nome em inglês ou o código RGB</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Inserir barra de arrastar</td>
+                                    <td>1. Inserir barra de arrastar<br>2. Estipular valores máximos e mínimos da barra<br>3. Com os limites definidos, insere um valor inicial.<br>4. Determina de quanto em quanto os valores da barra vão aumentando a cada “passo”. Se não colocar nada, vai ser de 1 em 1.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Estabelecer quantidade mínima e máxima de caracteres</td>
+                                    <td>Estabelece a quantidade mínima de caracteres  para que seja possível enviar uma informação. No exemplo ao lado, essa quantidade é de 5 caracteres.  Se não tiver ao menos 5 caracteres, na hora de enviar o formulário, o html vai barrar. O mesmo acontece com a quantidade máxima.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Aparecer o teclado virtual certo</td>
+                                    <td>Essa tag define, em celulares e dispositivos de teclado virtual, qual teclado aparecerá, se é o de letras, números ou códigos.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Vincular um input a um label</td>
+                                    <td>Dessa forma, você vincula uma label com um input sem que seja necessário que o input esteja entre as tags da label. Basta que o nome entre aspas seja o mesmo para os dois.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Input para senhas</td>
+                                    <td>Ao preencher o input, os dados não serão mostrados</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Input para números</td>
+                                    <td>Só aceita que sejam inseridos números no input.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Input para emails</td>
+                                    <td>Ele não aceita a informação se não tiver um formato de e-mail. Ele não verifica se o e-mail é válido. </td>
+                                </tr>
+                            </table>
+                        </section>
+                    </section>
+
+                    <setion class="section-m2">
+                        <section id="tabelas">
+                            <h3 class="titulo-m2">Tags de tabelas</h3>
+                            <table class="tabela-m2">
+
+                                <tr>
+                                    <th>Função</th>
+                                    <th>Comentário</th>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Criar tabelas</td>
+                                    <td>Abre e fecha uma tabela</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Criar bordas</td>
+                                    <td>1.Coloca bordas na tabela, onde 2 pode ser qualquer valor numérico, pois define a grossura em pixels<br>2. E red pode ser qualquer cor para a borda.<br><font color="red">Geralmente essa função é feita pelo CSS</font></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Criar espaçamento entre células</td>
+                                    <td>Cria o espaçamento das células, onde 10 pode ser qualquer valor para o espaçamento, dado em pixels.<br><font color="red">Geralmente essa função é feita pelo CSS</font></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Inserir linhas</td>
+                                    <td>Cria as linhas da tabela.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Separar células do cabeçalho da tabela</td>
+                                    <td>O que estiver entre as tags estará na mesma célula da tabela. É usado no cabeçalho da tabela, pois dá destaque ao texto.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Separar células do corpo da tabela</td>
+                                    <td>O que estiver entre as tags estará na mesma célula da tabela. É usado no corpo da tabela, pois não destaca o texto.</td>
+                                </tr>
+
+                            </table>
+                        </section>   
+                        
+                        <section id="imagens">
+                            <h3 class="titulo-m2">Tags de imagens</h3>  
+                            <table class="tabela-m2">
+
+                                <tr>
+                                    <th>Função</th>
+                                    <th>Comentário</th>
+                                </tr>
+
+                                <tr>
+                                    <td>Inserir texto alternativo</td>
+                                    <td>O texto inserido entre as aspas irá aparecer no lugar da imagem se ocorrer algum problema no carregamento da imagem no site. Além disso, programas de leitura de site para deficientes visuais vai ler o texto quando passar pela imagem. </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Tamanho da imagem</td>
+                                    <td>1. Define a largura em pixels.<br>2. Define a altura em pixels.<br><font color="red">Geralmente essa função é feita pelo CSS</font><br>Se você alterar apenas uma dimensão, a outra será alterada na mesma proporção<br> automaticamente.</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Adicionar legenda à imagem</td>
+                                    <td>Primeiro abre a tag figure, ai dentro dela coloca a imagem e todas suas propriedades, e em seguida abre a tag figcaption, e o texto que estiver entre essa tag será a legenda.</td>
+                                </tr>
+
+                            </table>
+                        </section>
+
+                        <section id="videos">
+                            <h3 class="titulo-m2">Tags de videos</h3>
+                            <table class="tabela-m2">
+
+                                <tr>
+                                    <th>Função</th>
+                                    <th>Comentário</th>
+                                </tr>
+                                    
+                                <tr>
+                                    <td>Adicionar vídeo </td>
+                                    <td>Insere o vídeo, e a propriedade controls insere os botões e a minutagem do vídeo.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Tamanho do vídeo</td>
+                                    <td>1. Define a largura em pixels.<br>2. Define a altura em pixels.<br><font color="red">Geralmente essa função é feita pelo CSS</font><br>Se você alterar apenas uma dimensão, a outra será alterada na mesma proporção automaticamente.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Configurações do vídeo</td>
+                                    <td>1. O vídeo já começa assim que carregar a página<br>2. Assim que o vídeo acabar, ele já inicia novamente<br>3. O vídeo começa mutado. Alguns navegadores bloqueiam o autoplay, logo o vídeo não começa sozinho, porém permitem que o vídeo comece se ele estiver mutado.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Thumbnail</td>
+                                    <td>Insere uma imagem de capa para o vídeo, uma thumbnail.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Extensão do vídeo</td>
+                                    <td>Essa tag vai entre as tags de vídeo. Você colocará o mesmo vídeo várias vezes,mas em diferentes extensões. Se o navegador não conseguir rodar a primeira extensão que você escolheu, ele tentará a segunda, e assim por diante. O formato universal dos vídeos é o mp4, pois a maioria dos navegadores consegue lê-lo. Caso nenhuma extensão funcione, você pode colocar um texto para aparecer no lugar do vídeo, basta escrevê-lo entre as tags de vídeo.</td>
+                                </tr>
+
+                            </table>
+                        </section>
+
+                        <section id="Iframes">
+                            <h3 class="titulo-m2">Tags de Iframes</h3>
+                            <table class="tabela-m2">
+
+                                <tr>
+                                    <th >Função</th>
+                                    <th >Comentário</th>
+                                </tr>
+
+                                <tr>
+                                    <td>Colocar uma página dentro de<br> outra.</td>
+                                    <td>Anexa uma telinha dentro da página com a página do link dentro. Alguns sites não permitem que sejam anexados. É possível alterar as dimensões da telinha. Da pra anexar vídeos do youtube ou mapas do google, por exemplo.</td>
+                                </tr>
+
+                            </table>
+                        </section>
+
+                        <section id="formularios">
+                            <h3 class="titulo-m2">Tags de forumulários</h3>
+                            <table class="tabela-m2">
+
+                                <tr>
+                                    <th>Função</th>
+                                    <th>Comentário</th>
+                                </tr>
+
+                                <tr>
+                                    <td>Criar um formulário para coletar dados</td>
+                                    <td>Abre e fecha um formulário</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Definir onde os dados do formulário serão enviados</td>
+                                    <td>Os dados coletados serão enviados no URL da tag. Se não usar essa tag, os dados vão ser enviados para a mesma URL.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Definir o método que os dados serão<br> enviados</td>
+                                    <td>1. Envia os dados por meio da URL. Dessa forma, os dados ficam visíveis >no link do navegador, por isso é utilizado quando os dados não são confidenciais.<br>2. Envia os dados por meio da URL, mas, dessa forma, os dados não ficam visíveis, por isso é usado quando os dados são confidenciais.</td>
+                                </tr>
+                            </table>
+                        </section>
+
+                        <section id="botoes">
+                            <h3 class="titulo-m2">Tags de botões</h3>
+                            <table class="tabela-m2">
+
+                                <tr>
+                                    <th>Função</th>
+                                    <th>Comentário</th>
+                                </tr>
+
+                                <tr>
+                                    <td>Botão para enviar as informações do input</td>
+                                    <td>O texto que vai aparecer no botão deve ser inserido entre as tags. Só é permitido um desse botão por input/formulário.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Botão clássico</td>
+                                    <td>Ao clicar no botão ele faz uma determinada ação.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Botão de reset</td>
+                                    <td>Reseta todas as informações dos inputs do formulário.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Botão desabilitado</td>
+                                    <td>Deixa o botão bloqueado, sem poder ser comutado. É usado em sites que informações precisam ser preenchidas antes que ele seja comutado.</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Botão autofoco</td>
+                                    <td> Foca automaticamente em algum botão. Só pode haver uma dessa propriedade em toda a página</td>
+                                </tr>
+                            </table>
+                        </section>
+                    </setion>
+                </article>
+            </main>
+
+            <footer>
+
+                <div class="div-1">
+                    <h2 class="duvidas" id="Tire-suas-duvidas">Dúvidas? Fale conosco!</h2>
+                </div>
+
+                <div class="div-2">
+                    <form method="get">
+
+                        <label for="nome">Nome:</label>
+                        <br>
+                        <input id="nome" placeholder="Seu nome" required>
+                        <br>
+                        <br>
+
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" id="nome" placeholder="seuemail@gmail.com" required>
+                        <br>
+                        <br>
+
+                        <label for="Dúvida">Dúvida:</label>
+                        <br>
+                        <textarea id="Dúvida" placeholder="Sua dúvida" required></textarea>
+                        <br>
+                        <br>
+
+                        <button type="reset">Limpar</button>
+                        <button type="submit">Enviar dúvida</button>                  
+
+                    </form>
+                </div>
+
+                <div class="div-3" id="Nossas-redes">
+                    <b>Contate-nos em nossas redes sociais!</b>
+                </div>
+
+                <div class="div-4">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="logo-fb.png" class="logo-fb" Alt="logo fb com link"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="logo-instagram.png" class="logo-instagram" Alta="logo instagram com link"></a>
+                    <a href="https://web.whatsapp.com/" target="_blank"><img src="logo-wpp.png" class="logo-wpp" Alt="Logo wpp com link"></a>
+                </div>
+            </footer>
+        
+        
+    </body>
+
+</html>
